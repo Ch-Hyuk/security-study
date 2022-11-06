@@ -1,0 +1,12 @@
+[wargame]
+title = Trino: Albireo
+flag = GoN{flag_albireo}
+tags = web
+
+[vm]
+os = linux
+memory = 1024
+disk = 1024
+ports = 15961/tcp
+allow_outgoing = true
+docker_compose = true
